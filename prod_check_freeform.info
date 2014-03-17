@@ -1,0 +1,7 @@
+name = Production Check Freeform
+description = Uses Production Check for Freeform-specific checks.
+package = Freeform Solutions
+core = 7.x
+version = 7.x-1.x-dev
+configure = admin/settings/freeform
+dependencies[] = prod_check
