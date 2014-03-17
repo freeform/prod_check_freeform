@@ -33,7 +33,7 @@ function prod_check_freeform_additional_check($caller = 'internal') {
   $title = 'Production check Freeform settings';
   $setting1 = t('Enable debug info');
   $setting2 = t('Disable debug info');
-  $path = 'admin/settings/freeform';
+  $path = 'admin/config/system/freeform';
   if ($caller != 'internal') {
     $path = PRODCHECK_BASEURL . $path;
   }
@@ -91,7 +91,7 @@ function prod_check_freeform_httpbl($caller = 'internal') {
   $check = array();
 
   $title = 'http:BL';
-  $path = 'admin/settings/httpbl';
+  $path = 'admin/config/people/httpbl';
   if ($caller != 'internal') {
     $path = PRODCHECK_BASEURL . $path;
   }
