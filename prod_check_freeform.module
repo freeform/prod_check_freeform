@@ -21,6 +21,7 @@ function prod_check_freeform_prod_check_alter(&$checks) {
     ),
   );
 }
+
 /**
  * Custom function to check some things.
  * @param string the caller of the function, defaults to 'internal' but can also
@@ -30,7 +31,7 @@ function prod_check_freeform_prod_check_alter(&$checks) {
  */
 function prod_check_freeform_additional_check($caller = 'internal') {
   $check = array();
-  $title = 'Production check Freeform settings';
+  $title = 'Freeform production check settings';
   $setting1 = t('Enable debug info');
   $setting2 = t('Disable debug info');
   $path = 'admin/settings/freeform';
